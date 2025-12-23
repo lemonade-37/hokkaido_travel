@@ -92,4 +92,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.hosts << 'ezo-travel.com'
+  config.hosts << 'hokkaido-travel.fly.dev'
 end

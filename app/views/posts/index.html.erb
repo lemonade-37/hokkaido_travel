@@ -186,12 +186,12 @@
               <div class="flex justify-between">
                 <div class="space-x-2 flex items-center">
                   <div>
-                    <%= link_to "https://twitter.com/intent/tweet?url=https://ezo-travel.com/posts/#{ post.id }&text=#{post.title}を見つけたよ！%0A&hashtags=えぞとらべる&hashtags=北海道&hashtags=北海道旅行&hashtags=#{post.title.gsub(/[[:space:]]+/, '')}", target: '_blank' do %>
+                    <%= link_to "https://twitter.com/intent/tweet?url=https://hokkaido-travel.fly.dev/posts/#{ post.id }&text=#{post.title}を見つけたよ！%0A&hashtags=えぞとらべる&hashtags=北海道&hashtags=北海道旅行&hashtags=#{post.title.gsub(/[[:space:]]+/, '')}", target: '_blank' do %>
                       <%= image_tag ("sns_x.webp"), class: "rounded-full w-7" %>
                     <% end %>
                   </div>
                   <div class="w-10">
-                    <%= link_to "https://social-plugins.line.me/lineit/share?url=https://ezo-travel.com/posts/#{ post.id }&text=#{post.title}を見つけたよ！", target: '_blank' do %>
+                    <%= link_to "https://social-plugins.line.me/lineit/share?url=https://hokkaido-travel.fly.dev/posts/#{ post.id }&text=#{post.title}を見つけたよ！", target: '_blank' do %>
                       <%= image_tag ("sns_line.webp"), class: "rounded-full w-7" %>
                     <% end %>
                   </div>
